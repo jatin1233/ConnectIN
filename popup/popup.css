@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif !important;
+  letter-spacing: 0.8px;
+}
+
+.container {
+  height: 15rem;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  background-color: #364a61;
+  align-items: center;
+  color: white;
+}
+
+.settings-btn {
+  background-color: #456383;
+  border-radius: 5px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.connect-section {
+  background-color: #171d23;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#connect-btn {
+  border: 1px solid #364a61;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.start-connect {
+  color: #171d23;
+  background-color: rgb(58, 169, 132);
+}
+
+.start-connect:hover {
+  background-color: rgb(45, 137, 106);
+}
+
+.stop-connect {
+  background-color: rgb(232, 167, 167);
+}
+
+.stop-connect:hover {
+  background-color: rgb(221, 132, 132);
+}
+
+#nav-title {
+  padding-left: 10px;
+}
+
+#circular-parent {
+  height: 40%;
+  width: auto;
+  background-color: #171d23;
+}
+
+.circular-container {
+  height: 5rem;
+  width: 5rem;
+  background-color: #171d23;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.circular-progress {
+  position: relative;
+  height: 4.2rem;
+  width: 4.2rem;
+  background-color: #eee;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #171d23;
+  border-radius: 50%;
+}
+
+.value-container {
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+}
+
+#invitations-text {
+  margin: 5px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="flex">
+        <h4 id="nav-title">LinkedIn AutoConnect</h4>
+        <div class="settings-btn flex">
+          <img
+            src="/icons/settings.png"
+            alt="settings"
+            height="16px"
+            width="16px"
+          />
+        </div>
+      </nav>
+      <section class="connect-section">
+        <h4 id="invitations-text">Invitations Sent</h4>
+        <div id="circular-parent">
+          <div class="circular-container">
+            <div class="circular-progress">
+              <div class="value-container">0</div>
+            </div>
+          </div>
+        </div>
+        <button id="connect-btn" class="start-connect">START CONNECTING</button>
+      </section>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

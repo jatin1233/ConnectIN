@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "ConnectIn",
+  "version": "1.0",
+  "description": "Send automate sending connection request to every user in current page",
+  "icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png",
+    "16": "icons/icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.linkedin.com/search/results/people/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "128": "icons/icon128.png",
+      "48": "icons/icon48.png",
+      "16": "icons/icon16.png"
+    },
+    "default_popup": "popup/popup.html"
+  }
+}
