@@ -8,12 +8,17 @@ Its quite Simple!!!!
 
 Step 1 - Clone the repository to your local environment 
          Please Refer: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+         
 Step 2 - Open Chrome browser and go to chrome://extensions/
+
 Step 3 - Click on 'Load unpacked' button and select the folder which contains the code for the extension.
+
 Step 4 - VOILA! You have the extension added to your chrome browser.
+
 Step 5 - Main point? How to use the extension. 
          Simply, navigate to linkedIN -> Search for a name -> Navigate to "See All People Results" -> And then open the extension using the chrome's toolbar.
          Click on extension button -> Select "ConnectIN" to open the extension.
+         
 Step 6 - Click on 'START CONNECTING' to send requests. Extension would send request to all the persons present in the current page.
          We can also stop sending request by simply clicking on 'STOP CONNECTING' button.
        
